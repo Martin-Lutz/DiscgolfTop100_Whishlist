@@ -1,59 +1,92 @@
 import pandas as pd
 import folium
-url = "https://udisc.com/blog/post/100-european-disc-golf-courses-people-most-want-to-play"
 import bs4
 import requests
 
+url = "https://udisc.com/blog/post/100-european-disc-golf-courses-people-most-want-to-play"
+headers = {"User-Agent": "Mozilla/5.0"}
 
-class course:
-    def __init__(self,name, link, rank):
+class Course:
+    def __init__(self, name, link, rank):
         self.name = name
         self.link = link
         self.rank = rank
-        print(self.link)
-        response = requests.get(self.link)
+        print(f"Lade: {self.link}")
+        
+        try:
+            response = requests.get(self.link, headers=headers, timeout=10)
+            if response.status_code != 200:
+                print(f"Fehler: HTTP {response.status_code}")
+                self.lat, self.lon = None, None
+                return
+        except Exception as e:
+            print(f"Verbindungsfehler: {e}")
+            self.lat, self.lon = None, None
+            return
+
         soup = bs4.BeautifulSoup(response.text, "html.parser")
-        a = soup.find_all("a", string="Get directions")[0]
-        a = a["href"]
-        coordinates = a.split("/")[-1].split(",")
-        self.lat = float(coordinates[0])
-        self.lon = float(coordinates[1])
-       
-    
+
+        # Suche alle Google Maps Links
+        google_links = soup.find_all("a", href=lambda href: href and "google.com/maps/place/" in href)
+        if not google_links:
+            print("Kein Google Maps-Link gefunden.")
+            self.lat, self.lon = None, None
+            return
+
+        # Extrahiere Koordinaten
+        found = False
+        for a in google_links:
+            href = a["href"]
+            try:
+                coords_str = href.split("/place/")[-1]
+                lat_str, lon_str = coords_str.split(",")[:2]
+                self.lat = float(lat_str)
+                self.lon = float(lon_str)
+                found = True
+                break
+            except Exception as e:
+                print(f"Fehler beim Parsen von Koordinaten: {e}")
+                continue
+
+        if not found:
+            print("Koordinaten konnten nicht extrahiert werden.")
+            self.lat, self.lon = None, None
+
     def __str__(self):
-        return self.name + " " + self.link + " " + self.rank + " " + str(self.lat) + " " + str(self.lon)
+        return f"{self.name} {self.link} {self.rank} {self.lat}, {self.lon}"
 
 
-response = requests.get(url)
+# Hauptseite mit Kursliste scrapen
+response = requests.get(url, headers=headers)
 soup = bs4.BeautifulSoup(response.text, "html.parser")
-table = soup.find_all("table")
-table = table[1]
+tables = soup.find_all("table")
+table = tables[1] if len(tables) > 1 else tables[0]  # Fallback
 
-#split the table into rows
 rows = table.find_all("tr")
 courses = []
+
 for row in rows:
     try:
-        #get the rank
-        rank = row.find_all("td")[0].text
-        #get the name
-        name = row.find_all("td")[1].text
-        #get the link
+        rank = row.find_all("td")[0].text.strip()
+        name = row.find_all("td")[1].text.strip()
         link = row.find_all("td")[1].a["href"]
-        #if link starts with http, use it, otherwise add the base url
-        if not link.startswith("https"):
+        if not link.startswith("http"):
             link = "https://udisc.com" + link
+        c = Course(name, link, rank)
+        if c.lat is not None and c.lon is not None:
+            courses.append(c)
+    except Exception as e:
+        print(f"Überspringe einen Eintrag: {e}")
+        continue
 
-        courses.append(course(name, link, rank))
-    except:
-        pass
+# Karte erzeugen
+m = folium.Map(location=[52, 10], zoom_start=4)
 
-
-#create a map with coordinates
-m = folium.Map(location=[0, 0], zoom_start=2)
 for c in courses:
-    folium.Marker([c.lat, c.lon], popup=f"<a href='{c.link}'>{c.name}</a> - Rank: {c.rank}").add_to(m)
+    folium.Marker(
+        location=[c.lat, c.lon],
+        popup=f"<a href='{c.link}' target='_blank'>{c.name}</a> - Rank: {c.rank}"
+    ).add_to(m)
 
 m.save("map.html")
-
-
+print("Karte gespeichert als map.html")

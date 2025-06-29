@@ -1,0 +1,2169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f5439538b805ce17794840bc259391bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f5439538b805ce17794840bc259391bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f5439538b805ce17794840bc259391bc = L.map(
+                "map_f5439538b805ce17794840bc259391bc",
+                {
+                    center: [52.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_31a23586841d5abaf602b2b0aab74fae = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+            var marker_b2883f6d79afad0292bca9b9e9745806 = L.marker(
+                [59.80289655805656, 10.926047017006706],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_8cb87da65c84f54e0c494942205a445c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_768c5779c3d31c95b8b049901817e5bb = $(`<div id="html_768c5779c3d31c95b8b049901817e5bb" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/21428' target='_blank'>Krokhol Disc Golf Course</a> - Rank: 1</div>`)[0];
+                popup_8cb87da65c84f54e0c494942205a445c.setContent(html_768c5779c3d31c95b8b049901817e5bb);
+            
+        
+
+        marker_b2883f6d79afad0292bca9b9e9745806.bindPopup(popup_8cb87da65c84f54e0c494942205a445c)
+        ;
+
+        
+    
+    
+            var marker_312ebe3876536e6bb02ac0443efb1a3f = L.marker(
+                [57.89392179392186, 12.116823252421279],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_25f7d87c7c59ccd509dd273310744430 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2604773e73000d7234418fc49f98bdd0 = $(`<div id="html_2604773e73000d7234418fc49f98bdd0" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/25101' target='_blank'>Ale Disc Golf Center: White Course</a> - Rank: 2</div>`)[0];
+                popup_25f7d87c7c59ccd509dd273310744430.setContent(html_2604773e73000d7234418fc49f98bdd0);
+            
+        
+
+        marker_312ebe3876536e6bb02ac0443efb1a3f.bindPopup(popup_25f7d87c7c59ccd509dd273310744430)
+        ;
+
+        
+    
+    
+            var marker_a4ef4af7691ecd3a32a48e4941dc058e = L.marker(
+                [62.644294638825386, 6.934413412108],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_41fe0d207cf20f83ae78438ea18b2018 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_826b0de484ab7a531257337130256992 = $(`<div id="html_826b0de484ab7a531257337130256992" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3863' target='_blank'>Øverås Diskgolfpark</a> - Rank: 3</div>`)[0];
+                popup_41fe0d207cf20f83ae78438ea18b2018.setContent(html_826b0de484ab7a531257337130256992);
+            
+        
+
+        marker_a4ef4af7691ecd3a32a48e4941dc058e.bindPopup(popup_41fe0d207cf20f83ae78438ea18b2018)
+        ;
+
+        
+    
+    
+            var marker_da2bd6f6453db154cc007e72249cd322 = L.marker(
+                [55.808934796033014, 13.82063014907564],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_46d57d4b12d5e89e093ffbc8a065bbcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea7c311ae9bab5f99829296e5702e376 = $(`<div id="html_ea7c311ae9bab5f99829296e5702e376" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/35426' target='_blank'>Åkeslund DiscGolfCenter</a> - Rank: 4</div>`)[0];
+                popup_46d57d4b12d5e89e093ffbc8a065bbcc.setContent(html_ea7c311ae9bab5f99829296e5702e376);
+            
+        
+
+        marker_da2bd6f6453db154cc007e72249cd322.bindPopup(popup_46d57d4b12d5e89e093ffbc8a065bbcc)
+        ;
+
+        
+    
+    
+            var marker_2e5dc858248e0c8f6b9e056f158cffb1 = L.marker(
+                [61.212067, 26.051487],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_c28caaa15e3cefddb044d29b4c416833 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f622d770ad6e49b3090232edb72c623 = $(`<div id="html_4f622d770ad6e49b3090232edb72c623" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3971' target='_blank'>Kippasuo Pro DiscGolfPark at Heinola DiscGolfPark World</a> - Rank: 5</div>`)[0];
+                popup_c28caaa15e3cefddb044d29b4c416833.setContent(html_4f622d770ad6e49b3090232edb72c623);
+            
+        
+
+        marker_2e5dc858248e0c8f6b9e056f158cffb1.bindPopup(popup_c28caaa15e3cefddb044d29b4c416833)
+        ;
+
+        
+    
+    
+            var marker_3f9811e3d71898423e9200b29a1bdb5b = L.marker(
+                [57.74053323276979, 13.00364455862433],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_789caf7f3e003ca7aa9dda499da67c4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_883d29cc05c260f6d02c92c3ea9027a1 = $(`<div id="html_883d29cc05c260f6d02c92c3ea9027a1" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3832' target='_blank'>Ymergårdens Discgolfcenter - Gold Course</a> - Rank: 6</div>`)[0];
+                popup_789caf7f3e003ca7aa9dda499da67c4e.setContent(html_883d29cc05c260f6d02c92c3ea9027a1);
+            
+        
+
+        marker_3f9811e3d71898423e9200b29a1bdb5b.bindPopup(popup_789caf7f3e003ca7aa9dda499da67c4e)
+        ;
+
+        
+    
+    
+            var marker_30e018b41c809ff82bf574e272436382 = L.marker(
+                [59.402659298437044, 17.898298471298517],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_be2a862a154228f785cf0bd8773257e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0506cfa41251c7444fbb0ca38bec043a = $(`<div id="html_0506cfa41251c7444fbb0ca38bec043a" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3486' target='_blank'>Järva Discgolf Park</a> - Rank: 7</div>`)[0];
+                popup_be2a862a154228f785cf0bd8773257e1.setContent(html_0506cfa41251c7444fbb0ca38bec043a);
+            
+        
+
+        marker_30e018b41c809ff82bf574e272436382.bindPopup(popup_be2a862a154228f785cf0bd8773257e1)
+        ;
+
+        
+    
+    
+            var marker_26f20338506353c83461107a53168610 = L.marker(
+                [57.902156901658486, 12.118588416903926],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_1159fc8372b4ca1dc4420b394c5503b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfd8d7380e89cb5c977710f702b057cd = $(`<div id="html_bfd8d7380e89cb5c977710f702b057cd" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/31953' target='_blank'>Uspastorp DiscGolfPark</a> - Rank: 8</div>`)[0];
+                popup_1159fc8372b4ca1dc4420b394c5503b9.setContent(html_bfd8d7380e89cb5c977710f702b057cd);
+            
+        
+
+        marker_26f20338506353c83461107a53168610.bindPopup(popup_1159fc8372b4ca1dc4420b394c5503b9)
+        ;
+
+        
+    
+    
+            var marker_6daf0aa06b3398eeebaf707372ad238d = L.marker(
+                [57.89032526125977, 12.117624767708781],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_d54c790a85149e556490d55fbfb3236d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91d18209ba4d4b2f82d5d3a8aaf1c2c2 = $(`<div id="html_91d18209ba4d4b2f82d5d3a8aaf1c2c2" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5167' target='_blank'>Ale Disc Golf Center: Yellow Course</a> - Rank: 9</div>`)[0];
+                popup_d54c790a85149e556490d55fbfb3236d.setContent(html_91d18209ba4d4b2f82d5d3a8aaf1c2c2);
+            
+        
+
+        marker_6daf0aa06b3398eeebaf707372ad238d.bindPopup(popup_d54c790a85149e556490d55fbfb3236d)
+        ;
+
+        
+    
+    
+            var marker_a3bc21870c7103e47b321e335a33bda9 = L.marker(
+                [60.71228403073613, 10.781043358262679],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_ad8b8ecdf9b5948f5065182b5313bc86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd028b082be3129835cfcacad5a1701a = $(`<div id="html_cd028b082be3129835cfcacad5a1701a" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/20924' target='_blank'>Karidalen FrisbeeGolfPark</a> - Rank: 10</div>`)[0];
+                popup_ad8b8ecdf9b5948f5065182b5313bc86.setContent(html_cd028b082be3129835cfcacad5a1701a);
+            
+        
+
+        marker_a3bc21870c7103e47b321e335a33bda9.bindPopup(popup_ad8b8ecdf9b5948f5065182b5313bc86)
+        ;
+
+        
+    
+    
+            var marker_a6548dc37a24fb190807fdb5e8bf294b = L.marker(
+                [59.67141003204493, 17.046576216816902],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_9f9a2e0fa63c9de190e02f397fdb8a12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f24d51fa58cec17b82b8b328b91f8397 = $(`<div id="html_f24d51fa58cec17b82b8b328b91f8397" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/22518' target='_blank'>Lundbyparken</a> - Rank: 11</div>`)[0];
+                popup_9f9a2e0fa63c9de190e02f397fdb8a12.setContent(html_f24d51fa58cec17b82b8b328b91f8397);
+            
+        
+
+        marker_a6548dc37a24fb190807fdb5e8bf294b.bindPopup(popup_9f9a2e0fa63c9de190e02f397fdb8a12)
+        ;
+
+        
+    
+    
+            var marker_0d3c96293209f2b42ffac0c89c155118 = L.marker(
+                [56.061195, 8.852673],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_588cd36f7e3f1ef34908d8539e63b39e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9beb11c975351087497c4ea584c7c6b5 = $(`<div id="html_9beb11c975351087497c4ea584c7c6b5" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5408' target='_blank'>Momhøje Discgolf</a> - Rank: 12</div>`)[0];
+                popup_588cd36f7e3f1ef34908d8539e63b39e.setContent(html_9beb11c975351087497c4ea584c7c6b5);
+            
+        
+
+        marker_0d3c96293209f2b42ffac0c89c155118.bindPopup(popup_588cd36f7e3f1ef34908d8539e63b39e)
+        ;
+
+        
+    
+    
+            var marker_a45b92153ce7bcc38f8943285c82003f = L.marker(
+                [64.719261, 21.104752],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_71736cf9a6403da58662edc6e5136150 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2905e9c9b93bf892e227d202d8413e47 = $(`<div id="html_2905e9c9b93bf892e227d202d8413e47" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5198' target='_blank'>Discgolf terminalen Skellefteå</a> - Rank: T13</div>`)[0];
+                popup_71736cf9a6403da58662edc6e5136150.setContent(html_2905e9c9b93bf892e227d202d8413e47);
+            
+        
+
+        marker_a45b92153ce7bcc38f8943285c82003f.bindPopup(popup_71736cf9a6403da58662edc6e5136150)
+        ;
+
+        
+    
+    
+            var marker_e11e7f22ebaad65003f278fcfa768985 = L.marker(
+                [61.50453929798683, 23.861562422442045],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_f89d2ffcb05cf7a4d309ce822d3a2db2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11a1e1155f23f3d8cb07156e510c475c = $(`<div id="html_11a1e1155f23f3d8cb07156e510c475c" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/21097' target='_blank'>Tampereen Frisbeegolfkeskus</a> - Rank: T13</div>`)[0];
+                popup_f89d2ffcb05cf7a4d309ce822d3a2db2.setContent(html_11a1e1155f23f3d8cb07156e510c475c);
+            
+        
+
+        marker_e11e7f22ebaad65003f278fcfa768985.bindPopup(popup_f89d2ffcb05cf7a4d309ce822d3a2db2)
+        ;
+
+        
+    
+    
+            var marker_8443bac6b4d9822e00490d802e4b3d62 = L.marker(
+                [58.186055556154685, 7.293591863591005],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_c9b83798c91a1449812e40cb6d7cd64b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42fae40fdcf0767650956ad7cd332daa = $(`<div id="html_42fae40fdcf0767650956ad7cd332daa" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/28619' target='_blank'>Lille Leland Disc Golf</a> - Rank: 15</div>`)[0];
+                popup_c9b83798c91a1449812e40cb6d7cd64b.setContent(html_42fae40fdcf0767650956ad7cd332daa);
+            
+        
+
+        marker_8443bac6b4d9822e00490d802e4b3d62.bindPopup(popup_c9b83798c91a1449812e40cb6d7cd64b)
+        ;
+
+        
+    
+    
+            var marker_92287a79301040444895d459c221d5e9 = L.marker(
+                [62.670206216067186, 11.433655270272283],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_88185228ec958b5462b754ebe5cc871d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b18f25741f4df55047e3493f305f7818 = $(`<div id="html_b18f25741f4df55047e3493f305f7818" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/34913' target='_blank'>Glåmos Diskgolfbane Main</a> - Rank: 16</div>`)[0];
+                popup_88185228ec958b5462b754ebe5cc871d.setContent(html_b18f25741f4df55047e3493f305f7818);
+            
+        
+
+        marker_92287a79301040444895d459c221d5e9.bindPopup(popup_88185228ec958b5462b754ebe5cc871d)
+        ;
+
+        
+    
+    
+            var marker_e28f255ce9f07e16df8f4e5ba06493ec = L.marker(
+                [58.40732441307941, 16.162763920907906],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_84dab8f421569d205fa6392506e33577 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e117d9af2332aa16e720d461160818e5 = $(`<div id="html_e117d9af2332aa16e720d461160818e5" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/38945' target='_blank'>Eastern Meadows Disc Golf Course</a> - Rank: 17</div>`)[0];
+                popup_84dab8f421569d205fa6392506e33577.setContent(html_e117d9af2332aa16e720d461160818e5);
+            
+        
+
+        marker_e28f255ce9f07e16df8f4e5ba06493ec.bindPopup(popup_84dab8f421569d205fa6392506e33577)
+        ;
+
+        
+    
+    
+            var marker_b51a7c79255f8f8be37ce5615b89dfd2 = L.marker(
+                [47.506748, 10.222496],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_99f5c759ea1c60de2f3cdf9b13fbf001 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65c8ebed352a8ca8ff00ed0846c6e997 = $(`<div id="html_65c8ebed352a8ca8ff00ed0846c6e997" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4124' target='_blank'>Disc Golf Allgäu</a> - Rank: T18</div>`)[0];
+                popup_99f5c759ea1c60de2f3cdf9b13fbf001.setContent(html_65c8ebed352a8ca8ff00ed0846c6e997);
+            
+        
+
+        marker_b51a7c79255f8f8be37ce5615b89dfd2.bindPopup(popup_99f5c759ea1c60de2f3cdf9b13fbf001)
+        ;
+
+        
+    
+    
+            var marker_6ac35823527b284fcff0bf31a10bf4a3 = L.marker(
+                [61.483147, 23.526505],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_36c9be2d04a4272b4b22be229114440e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_056e1ca2c292e3fbc420b3fac847a0fb = $(`<div id="html_056e1ca2c292e3fbc420b3fac847a0fb" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4530' target='_blank'>Nokia DiscGolfPark</a> - Rank: T18</div>`)[0];
+                popup_36c9be2d04a4272b4b22be229114440e.setContent(html_056e1ca2c292e3fbc420b3fac847a0fb);
+            
+        
+
+        marker_6ac35823527b284fcff0bf31a10bf4a3.bindPopup(popup_36c9be2d04a4272b4b22be229114440e)
+        ;
+
+        
+    
+    
+            var marker_8543d069174ab2f606d91b85ec64e506 = L.marker(
+                [55.9909150524023, -2.585820440189451],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_dfb40647b5c2e281f6991c0470eb13a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04ad5e67c81365ac29868ba857d987fe = $(`<div id="html_04ad5e67c81365ac29868ba857d987fe" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4775' target='_blank'>ReBoot Disc Golf</a> - Rank: 20</div>`)[0];
+                popup_dfb40647b5c2e281f6991c0470eb13a5.setContent(html_04ad5e67c81365ac29868ba857d987fe);
+            
+        
+
+        marker_8543d069174ab2f606d91b85ec64e506.bindPopup(popup_dfb40647b5c2e281f6991c0470eb13a5)
+        ;
+
+        
+    
+    
+            var marker_828100671f2fb1a0e8195ed6820ff420 = L.marker(
+                [59.717614432461005, 12.441016668817383],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_cb11b70b1c0ec861db0ce7df7218618e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e33e435201675ea38cfce406b44ee99 = $(`<div id="html_4e33e435201675ea38cfce406b44ee99" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/37470' target='_blank'>Arvika discgolf</a> - Rank: 21</div>`)[0];
+                popup_cb11b70b1c0ec861db0ce7df7218618e.setContent(html_4e33e435201675ea38cfce406b44ee99);
+            
+        
+
+        marker_828100671f2fb1a0e8195ed6820ff420.bindPopup(popup_cb11b70b1c0ec861db0ce7df7218618e)
+        ;
+
+        
+    
+    
+            var marker_3c8788514bc85eb1ceaf7dc84479d182 = L.marker(
+                [55.641521, 12.519005],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_6fb149712284cf4eeeddc3400a6d87ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f07e9e8c06c92adac818d0424541be7 = $(`<div id="html_7f07e9e8c06c92adac818d0424541be7" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/2680' target='_blank'>Valbyparken Disc Golf</a> - Rank: 22</div>`)[0];
+                popup_6fb149712284cf4eeeddc3400a6d87ef.setContent(html_7f07e9e8c06c92adac818d0424541be7);
+            
+        
+
+        marker_3c8788514bc85eb1ceaf7dc84479d182.bindPopup(popup_6fb149712284cf4eeeddc3400a6d87ef)
+        ;
+
+        
+    
+    
+            var marker_17d6a167d7c7eb1deafe1b907c4abca4 = L.marker(
+                [59.30582340104104, 10.389294118796045],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_8e4b8220d39aa48716d582b9db858392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e8daa1574c682a86a0aa89ca2799231 = $(`<div id="html_9e8daa1574c682a86a0aa89ca2799231" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/33374' target='_blank'>Hestehagen Diskgolfbane</a> - Rank: 23</div>`)[0];
+                popup_8e4b8220d39aa48716d582b9db858392.setContent(html_9e8daa1574c682a86a0aa89ca2799231);
+            
+        
+
+        marker_17d6a167d7c7eb1deafe1b907c4abca4.bindPopup(popup_8e4b8220d39aa48716d582b9db858392)
+        ;
+
+        
+    
+    
+            var marker_de33d0c236664991f0c19d022fa35ff1 = L.marker(
+                [55.25377744199164, 9.274284169077873],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_9faa23a7cf032b5f1bfcfecbc6c06e76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44a35842c9453c709612a0cdbd98b3c9 = $(`<div id="html_44a35842c9453c709612a0cdbd98b3c9" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/20112' target='_blank'>Vojens DiscGolfPark</a> - Rank: 24</div>`)[0];
+                popup_9faa23a7cf032b5f1bfcfecbc6c06e76.setContent(html_44a35842c9453c709612a0cdbd98b3c9);
+            
+        
+
+        marker_de33d0c236664991f0c19d022fa35ff1.bindPopup(popup_9faa23a7cf032b5f1bfcfecbc6c06e76)
+        ;
+
+        
+    
+    
+            var marker_e3e8b037f04fc92c8e9c103fe2f2e085 = L.marker(
+                [58.913953943505575, 15.86784426122904],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_5ba26fe956e61b92b050834908526e6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1306e28395f850ed97091bf867213ac = $(`<div id="html_a1306e28395f850ed97091bf867213ac" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/30734' target='_blank'>Häfla Bruks DiscGolfPark (Hävla)</a> - Rank: 25</div>`)[0];
+                popup_5ba26fe956e61b92b050834908526e6d.setContent(html_a1306e28395f850ed97091bf867213ac);
+            
+        
+
+        marker_e3e8b037f04fc92c8e9c103fe2f2e085.bindPopup(popup_5ba26fe956e61b92b050834908526e6d)
+        ;
+
+        
+    
+    
+            var marker_17ac7567434c4420fde216731ea57cde = L.marker(
+                [56.28643321983904, 12.843718943266055],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_f6011266a3587e6ee77e3065eb0e677a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8926c3a6db38fd33377eeddb1cbedfbf = $(`<div id="html_8926c3a6db38fd33377eeddb1cbedfbf" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/37974' target='_blank'>Valhall Discgolfpark</a> - Rank: 26</div>`)[0];
+                popup_f6011266a3587e6ee77e3065eb0e677a.setContent(html_8926c3a6db38fd33377eeddb1cbedfbf);
+            
+        
+
+        marker_17ac7567434c4420fde216731ea57cde.bindPopup(popup_f6011266a3587e6ee77e3065eb0e677a)
+        ;
+
+        
+    
+    
+            var marker_2a4c7593f2f0bf7243835d530c4e7051 = L.marker(
+                [58.52267378531516, 15.02854887396097],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_698f273758e20e3402f2c62d0c1d5130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b929cbae5e33fb9bb1d0940c52c17431 = $(`<div id="html_b929cbae5e33fb9bb1d0940c52c17431" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/20165' target='_blank'>Fålehagen DiscGolfPark</a> - Rank: T27</div>`)[0];
+                popup_698f273758e20e3402f2c62d0c1d5130.setContent(html_b929cbae5e33fb9bb1d0940c52c17431);
+            
+        
+
+        marker_2a4c7593f2f0bf7243835d530c4e7051.bindPopup(popup_698f273758e20e3402f2c62d0c1d5130)
+        ;
+
+        
+    
+    
+            var marker_17bcb0343133b114b5a9921e1dde9fa5 = L.marker(
+                [63.712484171270944, 9.668085211604689],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_b71d974c51492fca8c8d27ef39f4e3df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bef8dea566e7350b409e694760c591a2 = $(`<div id="html_bef8dea566e7350b409e694760c591a2" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/22257' target='_blank'>Ørland Discgolfpark</a> - Rank: T27</div>`)[0];
+                popup_b71d974c51492fca8c8d27ef39f4e3df.setContent(html_bef8dea566e7350b409e694760c591a2);
+            
+        
+
+        marker_17bcb0343133b114b5a9921e1dde9fa5.bindPopup(popup_b71d974c51492fca8c8d27ef39f4e3df)
+        ;
+
+        
+    
+    
+            var marker_a8053d2df83cd5a1c4cf4c31b4d956a0 = L.marker(
+                [60.8998948106144, 11.605232432484625],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_00058a5275c4ed3855148a49cddf3fae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0abd5d21daa094172697f998d5eb45f = $(`<div id="html_d0abd5d21daa094172697f998d5eb45f" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/32642' target='_blank'>Løvbergsmoen Diskgolfpark</a> - Rank: 29</div>`)[0];
+                popup_00058a5275c4ed3855148a49cddf3fae.setContent(html_d0abd5d21daa094172697f998d5eb45f);
+            
+        
+
+        marker_a8053d2df83cd5a1c4cf4c31b4d956a0.bindPopup(popup_00058a5275c4ed3855148a49cddf3fae)
+        ;
+
+        
+    
+    
+            var marker_322c263e8715dae21a2e3d55cd68e3c1 = L.marker(
+                [55.969591961085655, 12.03661353418447],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_c83cf1b03d80a903d48712d3eea4e750 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_853a9d18d7063338a9cbf425d0d72db2 = $(`<div id="html_853a9d18d7063338a9cbf425d0d72db2" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/20340' target='_blank'>Halsnæs disc golf</a> - Rank: 30</div>`)[0];
+                popup_c83cf1b03d80a903d48712d3eea4e750.setContent(html_853a9d18d7063338a9cbf425d0d72db2);
+            
+        
+
+        marker_322c263e8715dae21a2e3d55cd68e3c1.bindPopup(popup_c83cf1b03d80a903d48712d3eea4e750)
+        ;
+
+        
+    
+    
+            var marker_a227a2748b72fd9fb63f7e9cb18e9ff0 = L.marker(
+                [64.12268495446106, -21.750312857329845],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_94f68cb3d071c75b02c26a857245bd0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_525bc37c3a84ea6a5fd14a595f676db3 = $(`<div id="html_525bc37c3a84ea6a5fd14a595f676db3" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/20318' target='_blank'>Grafarholt</a> - Rank: 31</div>`)[0];
+                popup_94f68cb3d071c75b02c26a857245bd0b.setContent(html_525bc37c3a84ea6a5fd14a595f676db3);
+            
+        
+
+        marker_a227a2748b72fd9fb63f7e9cb18e9ff0.bindPopup(popup_94f68cb3d071c75b02c26a857245bd0b)
+        ;
+
+        
+    
+    
+            var marker_267da3c12b03b91f74d1e3a4db6fffef = L.marker(
+                [60.288044, 25.318675],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_0a09a48f7f06801f3cd8c10344e7b1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8ad90808f4b0953f0fa3a5578db8e6c = $(`<div id="html_d8ad90808f4b0953f0fa3a5578db8e6c" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/10456' target='_blank'>Sibbe Disc Golf</a> - Rank: 32</div>`)[0];
+                popup_0a09a48f7f06801f3cd8c10344e7b1f3.setContent(html_d8ad90808f4b0953f0fa3a5578db8e6c);
+            
+        
+
+        marker_267da3c12b03b91f74d1e3a4db6fffef.bindPopup(popup_0a09a48f7f06801f3cd8c10344e7b1f3)
+        ;
+
+        
+    
+    
+            var marker_b012d83c2e46cbe0fe502897bab8d875 = L.marker(
+                [59.83211054150041, 10.858167457214478],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_a4970a958e233273398e860a1db7c3e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68f8d5ee30443434e6123af82c347e57 = $(`<div id="html_68f8d5ee30443434e6123af82c347e57" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/36525' target='_blank'>Klemetsrud diskgolfbane</a> - Rank: 33</div>`)[0];
+                popup_a4970a958e233273398e860a1db7c3e4.setContent(html_68f8d5ee30443434e6123af82c347e57);
+            
+        
+
+        marker_b012d83c2e46cbe0fe502897bab8d875.bindPopup(popup_a4970a958e233273398e860a1db7c3e4)
+        ;
+
+        
+    
+    
+            var marker_ff739786ec1c5cbd1f5fbeb3753af247 = L.marker(
+                [55.95824311888754, 12.356044427158594],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_ef6c23eebbaba41fb0dd7589ae9c3918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d8d2cf406f80d509b30bfaa73594997 = $(`<div id="html_7d8d2cf406f80d509b30bfaa73594997" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4170' target='_blank'>Eghjorten Disc Golf Course</a> - Rank: 34</div>`)[0];
+                popup_ef6c23eebbaba41fb0dd7589ae9c3918.setContent(html_7d8d2cf406f80d509b30bfaa73594997);
+            
+        
+
+        marker_ff739786ec1c5cbd1f5fbeb3753af247.bindPopup(popup_ef6c23eebbaba41fb0dd7589ae9c3918)
+        ;
+
+        
+    
+    
+            var marker_73613eb244c7751ecb7015dbf899bdbe = L.marker(
+                [59.895179, 10.787125],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_60bf322d38faf5e625474dab80b7dff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c166cb56e0b60e2b22692d10dfe9b05 = $(`<div id="html_5c166cb56e0b60e2b22692d10dfe9b05" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3675' target='_blank'>Ekeberg Frisbeegolfbane</a> - Rank: 35</div>`)[0];
+                popup_60bf322d38faf5e625474dab80b7dff6.setContent(html_5c166cb56e0b60e2b22692d10dfe9b05);
+            
+        
+
+        marker_73613eb244c7751ecb7015dbf899bdbe.bindPopup(popup_60bf322d38faf5e625474dab80b7dff6)
+        ;
+
+        
+    
+    
+            var marker_6bdec202851d86aa7c0dc8a86ad79681 = L.marker(
+                [60.182427496826335, 10.263192809859078],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_d5d50bd82e4f8d4e774fe463c477b3a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1746a7ad64ffc8d9989187e95397ccce = $(`<div id="html_1746a7ad64ffc8d9989187e95397ccce" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/40041' target='_blank'>Hovsmarka diskgolfpark</a> - Rank: 36</div>`)[0];
+                popup_d5d50bd82e4f8d4e774fe463c477b3a8.setContent(html_1746a7ad64ffc8d9989187e95397ccce);
+            
+        
+
+        marker_6bdec202851d86aa7c0dc8a86ad79681.bindPopup(popup_d5d50bd82e4f8d4e774fe463c477b3a8)
+        ;
+
+        
+    
+    
+            var marker_ef9f3c12dbd23abd3c3818a4ba17dc76 = L.marker(
+                [58.15255465905493, 8.090999760254665],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_16715c97d857cbf9ceb80d9a9868d3bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df6c8f18686839daef16cb5bf56fcc1a = $(`<div id="html_df6c8f18686839daef16cb5bf56fcc1a" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5103' target='_blank'>Sukkevann Frisbeegolfpark</a> - Rank: 37</div>`)[0];
+                popup_16715c97d857cbf9ceb80d9a9868d3bc.setContent(html_df6c8f18686839daef16cb5bf56fcc1a);
+            
+        
+
+        marker_ef9f3c12dbd23abd3c3818a4ba17dc76.bindPopup(popup_16715c97d857cbf9ceb80d9a9868d3bc)
+        ;
+
+        
+    
+    
+            var marker_2fb0e9eb163ee8ec0792c9ba8659504d = L.marker(
+                [66.82677683686398, 13.94926708715937],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_e93d7012718bb4317a72483c11259cc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c0874389ae72c82d6c25bc4f8349804 = $(`<div id="html_1c0874389ae72c82d6c25bc4f8349804" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/42240' target='_blank'>Fjellstua Diskgolfbane</a> - Rank: T38</div>`)[0];
+                popup_e93d7012718bb4317a72483c11259cc3.setContent(html_1c0874389ae72c82d6c25bc4f8349804);
+            
+        
+
+        marker_2fb0e9eb163ee8ec0792c9ba8659504d.bindPopup(popup_e93d7012718bb4317a72483c11259cc3)
+        ;
+
+        
+    
+    
+            var marker_33df828d3bd6c1277a48912236d4f976 = L.marker(
+                [36.582146, -4.611895],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_aee60cac3ae3848ec3631b4eee6ac0f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d06992fec364c49ad2a3fc81a25b982 = $(`<div id="html_6d06992fec364c49ad2a3fc81a25b982" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/10998' target='_blank'>DiscGolfPark Mijas</a> - Rank: T38</div>`)[0];
+                popup_aee60cac3ae3848ec3631b4eee6ac0f5.setContent(html_6d06992fec364c49ad2a3fc81a25b982);
+            
+        
+
+        marker_33df828d3bd6c1277a48912236d4f976.bindPopup(popup_aee60cac3ae3848ec3631b4eee6ac0f5)
+        ;
+
+        
+    
+    
+            var marker_160ca28149ac06488c229ff0d6d15b1d = L.marker(
+                [59.32338820173186, 17.911349567922628],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_20058174f3f95216169139ed8fd554bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf4857ba2a1d29fa744dd2f4b8f1850d = $(`<div id="html_bf4857ba2a1d29fa744dd2f4b8f1850d" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4738' target='_blank'>Kärsön Frisbeegolfbana</a> - Rank: 40</div>`)[0];
+                popup_20058174f3f95216169139ed8fd554bb.setContent(html_bf4857ba2a1d29fa744dd2f4b8f1850d);
+            
+        
+
+        marker_160ca28149ac06488c229ff0d6d15b1d.bindPopup(popup_20058174f3f95216169139ed8fd554bb)
+        ;
+
+        
+    
+    
+            var marker_fcd4eea62626ba4c3648e2083a7dc06a = L.marker(
+                [61.068901, 4.843663],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_3ebe69f2b3c650d90692d19032e89a9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f040d8c6abc4a69f9c97f91af24ce0bd = $(`<div id="html_f040d8c6abc4a69f9c97f91af24ce0bd" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/6307' target='_blank'>Draumeparken Diskgolfdestinasjon</a> - Rank: 41</div>`)[0];
+                popup_3ebe69f2b3c650d90692d19032e89a9b.setContent(html_f040d8c6abc4a69f9c97f91af24ce0bd);
+            
+        
+
+        marker_fcd4eea62626ba4c3648e2083a7dc06a.bindPopup(popup_3ebe69f2b3c650d90692d19032e89a9b)
+        ;
+
+        
+    
+    
+            var marker_c507d7462094438d195ea17537da9dbc = L.marker(
+                [59.965662219877316, 10.665957799598687],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_5d30ddf4fa30569cd3aa69352345036c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b0806e59a2ce8650a1c5ffb10f3dee1 = $(`<div id="html_4b0806e59a2ce8650a1c5ffb10f3dee1" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/10227' target='_blank'>Holmenkollen DiscGolfpark</a> - Rank: T42</div>`)[0];
+                popup_5d30ddf4fa30569cd3aa69352345036c.setContent(html_4b0806e59a2ce8650a1c5ffb10f3dee1);
+            
+        
+
+        marker_c507d7462094438d195ea17537da9dbc.bindPopup(popup_5d30ddf4fa30569cd3aa69352345036c)
+        ;
+
+        
+    
+    
+            var marker_13f128d2817cc187eb24544b5627a2f1 = L.marker(
+                [59.42057147324197, 10.695287557004344],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_d3c25a253dbbb07508f066fce595fe74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38d561d7ae2ec8095e8fc6996899a206 = $(`<div id="html_38d561d7ae2ec8095e8fc6996899a206" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/32082' target='_blank'>Solliskogen Diskgolfbane</a> - Rank: T42</div>`)[0];
+                popup_d3c25a253dbbb07508f066fce595fe74.setContent(html_38d561d7ae2ec8095e8fc6996899a206);
+            
+        
+
+        marker_13f128d2817cc187eb24544b5627a2f1.bindPopup(popup_d3c25a253dbbb07508f066fce595fe74)
+        ;
+
+        
+    
+    
+            var marker_969ef2a43e59c6854b52ef964cd60bd0 = L.marker(
+                [48.308823, 14.732057],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_c29e53f694a662f3a38f53d93a9abd78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8c50b600fb4b0e7b85fad4c44a4ab18 = $(`<div id="html_f8c50b600fb4b0e7b85fad4c44a4ab18" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3385' target='_blank'>Kumm Discgolf</a> - Rank: 44</div>`)[0];
+                popup_c29e53f694a662f3a38f53d93a9abd78.setContent(html_f8c50b600fb4b0e7b85fad4c44a4ab18);
+            
+        
+
+        marker_969ef2a43e59c6854b52ef964cd60bd0.bindPopup(popup_c29e53f694a662f3a38f53d93a9abd78)
+        ;
+
+        
+    
+    
+            var marker_c49a9fd3ee4383034aec58b3bf3fcef0 = L.marker(
+                [55.907312251432245, 12.460886059939668],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_db4d6da4f0b289850f478a10a6d52efd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54022a6df673a9bd19ee4b1563e00782 = $(`<div id="html_54022a6df673a9bd19ee4b1563e00782" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3339' target='_blank'>Kokkedal Discgolfbane</a> - Rank: 45</div>`)[0];
+                popup_db4d6da4f0b289850f478a10a6d52efd.setContent(html_54022a6df673a9bd19ee4b1563e00782);
+            
+        
+
+        marker_c49a9fd3ee4383034aec58b3bf3fcef0.bindPopup(popup_db4d6da4f0b289850f478a10a6d52efd)
+        ;
+
+        
+    
+    
+            var marker_4bf01c3f1a0f89958d68ad038b44abda = L.marker(
+                [59.93771966400084, 10.01118402924945],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_e607376f48dce08bef19fc56b3c387e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56a94425f8bebe265e2642110413188c = $(`<div id="html_56a94425f8bebe265e2642110413188c" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/40403' target='_blank'>Vikersund Disc Golf Park</a> - Rank: 46</div>`)[0];
+                popup_e607376f48dce08bef19fc56b3c387e1.setContent(html_56a94425f8bebe265e2642110413188c);
+            
+        
+
+        marker_4bf01c3f1a0f89958d68ad038b44abda.bindPopup(popup_e607376f48dce08bef19fc56b3c387e1)
+        ;
+
+        
+    
+    
+            var marker_b6470401da87fce6c41c23773b0c09a9 = L.marker(
+                [62.913165, 27.657928],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_3df98db369e8034e229708976eb61b2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26bd0d40b3e5440a23b6eb4665c6ba5e = $(`<div id="html_26bd0d40b3e5440a23b6eb4665c6ba5e" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/10841' target='_blank'>Puijo DiscGolf</a> - Rank: T47</div>`)[0];
+                popup_3df98db369e8034e229708976eb61b2f.setContent(html_26bd0d40b3e5440a23b6eb4665c6ba5e);
+            
+        
+
+        marker_b6470401da87fce6c41c23773b0c09a9.bindPopup(popup_3df98db369e8034e229708976eb61b2f)
+        ;
+
+        
+    
+    
+            var marker_fd6ee3acbae5637cc25564942670a23e = L.marker(
+                [57.680931, 11.94122],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_c4c15e5fd1d9b8e91d6c073214e46d9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0212e8063b38ada7b65956bf60843e60 = $(`<div id="html_0212e8063b38ada7b65956bf60843e60" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3614' target='_blank'>Slottsskogen</a> - Rank: T47</div>`)[0];
+                popup_c4c15e5fd1d9b8e91d6c073214e46d9d.setContent(html_0212e8063b38ada7b65956bf60843e60);
+            
+        
+
+        marker_fd6ee3acbae5637cc25564942670a23e.bindPopup(popup_c4c15e5fd1d9b8e91d6c073214e46d9d)
+        ;
+
+        
+    
+    
+            var marker_bc20a713f6cda18c25cbe86858f7e575 = L.marker(
+                [56.96130386969341, 12.559412921533067],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_f2348e4faa0a5500217519c94b0d8d91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc836f0812e37b7adce827ac2cd86c9d = $(`<div id="html_cc836f0812e37b7adce827ac2cd86c9d" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/35816' target='_blank'>Vinbergs Discgolf</a> - Rank: T47</div>`)[0];
+                popup_f2348e4faa0a5500217519c94b0d8d91.setContent(html_cc836f0812e37b7adce827ac2cd86c9d);
+            
+        
+
+        marker_bc20a713f6cda18c25cbe86858f7e575.bindPopup(popup_f2348e4faa0a5500217519c94b0d8d91)
+        ;
+
+        
+    
+    
+            var marker_4409b7bf5b93dcf877f784640001c396 = L.marker(
+                [56.40337696679981, 13.1166522754624],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_82c6421d68637e391e70868cd6a9af40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d38619f141eb83a568001845b78823f = $(`<div id="html_2d38619f141eb83a568001845b78823f" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/28577' target='_blank'>Vallåsens DGB</a> - Rank: 50</div>`)[0];
+                popup_82c6421d68637e391e70868cd6a9af40.setContent(html_2d38619f141eb83a568001845b78823f);
+            
+        
+
+        marker_4409b7bf5b93dcf877f784640001c396.bindPopup(popup_82c6421d68637e391e70868cd6a9af40)
+        ;
+
+        
+    
+    
+            var marker_46225b81d8184f7005489cca02586073 = L.marker(
+                [59.215168819928934, 10.142343565821648],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_786672d4718b24132204ad01b428e486 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28b398b5901e945e175ef320ed0aaad9 = $(`<div id="html_28b398b5901e945e175ef320ed0aaad9" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/25285' target='_blank'>Kodal Disc Golf Course</a> - Rank: 51</div>`)[0];
+                popup_786672d4718b24132204ad01b428e486.setContent(html_28b398b5901e945e175ef320ed0aaad9);
+            
+        
+
+        marker_46225b81d8184f7005489cca02586073.bindPopup(popup_786672d4718b24132204ad01b428e486)
+        ;
+
+        
+    
+    
+            var marker_0c08f73a066485170aa662d3ebe1a3c8 = L.marker(
+                [60.09807527296077, 11.366961747407913],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_53213bb7dac64b6443fd6abc710ac69a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37bcbb3254d3794335df739f4f193bdf = $(`<div id="html_37bcbb3254d3794335df739f4f193bdf" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/25346' target='_blank'>Hvam Disc Golf Course</a> - Rank: 52</div>`)[0];
+                popup_53213bb7dac64b6443fd6abc710ac69a.setContent(html_37bcbb3254d3794335df739f4f193bdf);
+            
+        
+
+        marker_0c08f73a066485170aa662d3ebe1a3c8.bindPopup(popup_53213bb7dac64b6443fd6abc710ac69a)
+        ;
+
+        
+    
+    
+            var marker_dbb1e33fba56218f02baabbfd0c2a485 = L.marker(
+                [58.03649415933185, 7.124153229211856],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_f047a0323e90db2d157f181dc9ecae79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_053bd07827a570a3d986e713536dafa8 = $(`<div id="html_053bd07827a570a3d986e713536dafa8" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/35479' target='_blank'>Spangereid frisbeegolfbane</a> - Rank: 53</div>`)[0];
+                popup_f047a0323e90db2d157f181dc9ecae79.setContent(html_053bd07827a570a3d986e713536dafa8);
+            
+        
+
+        marker_dbb1e33fba56218f02baabbfd0c2a485.bindPopup(popup_f047a0323e90db2d157f181dc9ecae79)
+        ;
+
+        
+    
+    
+            var marker_9c827fed9f8d989d325b09bf4db36de0 = L.marker(
+                [57.75452649544055, 16.595086008310318],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_f28e48a67cd91826a688ed1b76dcbe06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b689f3c250800124bddba5e451328ad = $(`<div id="html_8b689f3c250800124bddba5e451328ad" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/22520' target='_blank'>Alviken</a> - Rank: 54</div>`)[0];
+                popup_f28e48a67cd91826a688ed1b76dcbe06.setContent(html_8b689f3c250800124bddba5e451328ad);
+            
+        
+
+        marker_9c827fed9f8d989d325b09bf4db36de0.bindPopup(popup_f28e48a67cd91826a688ed1b76dcbe06)
+        ;
+
+        
+    
+    
+            var marker_13baa5d5e10d236feaa86ebdf21a2f92 = L.marker(
+                [50.6923662555364, 4.384126105873889],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_d9f7993349a74962a97f20673db58e66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01a9890bda01a50323bfe4d2577bc49c = $(`<div id="html_01a9890bda01a50323bfe4d2577bc49c" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5788' target='_blank'>Parc Bourdon - Braine l'Alleud</a> - Rank: T55</div>`)[0];
+                popup_d9f7993349a74962a97f20673db58e66.setContent(html_01a9890bda01a50323bfe4d2577bc49c);
+            
+        
+
+        marker_13baa5d5e10d236feaa86ebdf21a2f92.bindPopup(popup_d9f7993349a74962a97f20673db58e66)
+        ;
+
+        
+    
+    
+            var marker_253e64e06f6b3e5674fed1daf4955980 = L.marker(
+                [51.629423016744, 13.700585179030895],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_97e79f500d4d4bcd898db62cebb7dbb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8d8b8621c206c9466f44b8b7008206e = $(`<div id="html_d8d8b8621c206c9466f44b8b7008206e" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/23148' target='_blank'>Bürgerheide Finsterwalde</a> - Rank: T55</div>`)[0];
+                popup_97e79f500d4d4bcd898db62cebb7dbb1.setContent(html_d8d8b8621c206c9466f44b8b7008206e);
+            
+        
+
+        marker_253e64e06f6b3e5674fed1daf4955980.bindPopup(popup_97e79f500d4d4bcd898db62cebb7dbb1)
+        ;
+
+        
+    
+    
+            var marker_8d71fee80fc35603843d011db725d45a = L.marker(
+                [60.428627236061914, 24.20368573941269],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_bb66ac4adbf8517092bd4ace35134d13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a5b49781090d548f49f9d41bbc3fae = $(`<div id="html_c7a5b49781090d548f49f9d41bbc3fae" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/41177' target='_blank'>Rock Valley Premium Disc Golf Resort</a> - Rank: T57</div>`)[0];
+                popup_bb66ac4adbf8517092bd4ace35134d13.setContent(html_c7a5b49781090d548f49f9d41bbc3fae);
+            
+        
+
+        marker_8d71fee80fc35603843d011db725d45a.bindPopup(popup_bb66ac4adbf8517092bd4ace35134d13)
+        ;
+
+        
+    
+    
+            var marker_a83632803a56f3355020fa90accf7cf4 = L.marker(
+                [60.15302761627913, 11.16371541786475],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_ccfeb729c76f3500fa673b0df5e37409 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c62ebf1db45c7218bc4c2004deb5318e = $(`<div id="html_c62ebf1db45c7218bc4c2004deb5318e" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/36157' target='_blank'>Jessheim Discgolfpark</a> - Rank: T57</div>`)[0];
+                popup_ccfeb729c76f3500fa673b0df5e37409.setContent(html_c62ebf1db45c7218bc4c2004deb5318e);
+            
+        
+
+        marker_a83632803a56f3355020fa90accf7cf4.bindPopup(popup_ccfeb729c76f3500fa673b0df5e37409)
+        ;
+
+        
+    
+    
+            var marker_529ffe767ce2aea1509e63fdadfe088f = L.marker(
+                [60.32263489018328, 10.704159523261751],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_acdf060b8167378db374fed74b4dfe01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0950e27d42039bc895437ffed856da42 = $(`<div id="html_0950e27d42039bc895437ffed856da42" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/37741' target='_blank'>Tallikbane Skjerva Diskgolf</a> - Rank: T57</div>`)[0];
+                popup_acdf060b8167378db374fed74b4dfe01.setContent(html_0950e27d42039bc895437ffed856da42);
+            
+        
+
+        marker_529ffe767ce2aea1509e63fdadfe088f.bindPopup(popup_acdf060b8167378db374fed74b4dfe01)
+        ;
+
+        
+    
+    
+            var marker_85f0b07e18e8afa2a8c444ea9adf1346 = L.marker(
+                [57.77230633904952, 14.207477459396015],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_a65f3c80b2799d479f750c238a643286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b90a40b40e96cab38dd60479d22e73d0 = $(`<div id="html_b90a40b40e96cab38dd60479d22e73d0" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/24578' target='_blank'>A6 Discgolfpark</a> - Rank: 60</div>`)[0];
+                popup_a65f3c80b2799d479f750c238a643286.setContent(html_b90a40b40e96cab38dd60479d22e73d0);
+            
+        
+
+        marker_85f0b07e18e8afa2a8c444ea9adf1346.bindPopup(popup_a65f3c80b2799d479f750c238a643286)
+        ;
+
+        
+    
+    
+            var marker_f5fdca731548d83100fb4e6605d26dcb = L.marker(
+                [51.36469471843057, -0.08010494619077235],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_487f574e8a03e84264b1d38d085d7bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_580b097000806378dae5cde9ec1d2e77 = $(`<div id="html_580b097000806378dae5cde9ec1d2e77" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3054' target='_blank'>Croydon Disc Golf</a> - Rank: 61</div>`)[0];
+                popup_487f574e8a03e84264b1d38d085d7bc6.setContent(html_580b097000806378dae5cde9ec1d2e77);
+            
+        
+
+        marker_f5fdca731548d83100fb4e6605d26dcb.bindPopup(popup_487f574e8a03e84264b1d38d085d7bc6)
+        ;
+
+        
+    
+    
+            var marker_02cdaf859b6ed5cdf028e02921f18a84 = L.marker(
+                [59.56713466050948, 10.256677085660584],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_cd78c313a1a2eabbb5723340ed59dbd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1f1dd1ec0adb0e649540d690a681489 = $(`<div id="html_b1f1dd1ec0adb0e649540d690a681489" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/33419' target='_blank'>Lersbrygga diskgolfbane</a> - Rank: T62</div>`)[0];
+                popup_cd78c313a1a2eabbb5723340ed59dbd8.setContent(html_b1f1dd1ec0adb0e649540d690a681489);
+            
+        
+
+        marker_02cdaf859b6ed5cdf028e02921f18a84.bindPopup(popup_cd78c313a1a2eabbb5723340ed59dbd8)
+        ;
+
+        
+    
+    
+            var marker_14661e10f370b49be2c47ece2fb37812 = L.marker(
+                [59.412710262414635, 10.465665405609741],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_f963a81624ee0414aaba0d9e0e4ad325 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6e14ccbd739d675087cbd47abe53b57 = $(`<div id="html_b6e14ccbd739d675087cbd47abe53b57" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/35162' target='_blank'>Holtan Discgolf Park</a> - Rank: T62</div>`)[0];
+                popup_f963a81624ee0414aaba0d9e0e4ad325.setContent(html_b6e14ccbd739d675087cbd47abe53b57);
+            
+        
+
+        marker_14661e10f370b49be2c47ece2fb37812.bindPopup(popup_f963a81624ee0414aaba0d9e0e4ad325)
+        ;
+
+        
+    
+    
+            var marker_f16ad18b53c5c0b8447b2dc6d3ee0772 = L.marker(
+                [78.2141155754552, 15.618863646984778],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_54f0c9526c8c68345c53968132e8620a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1048031da61ffedb8e89b20e2b6a05c = $(`<div id="html_e1048031da61ffedb8e89b20e2b6a05c" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/33562' target='_blank'>Longyearbyen Disc Golf Course</a> - Rank: 64</div>`)[0];
+                popup_54f0c9526c8c68345c53968132e8620a.setContent(html_e1048031da61ffedb8e89b20e2b6a05c);
+            
+        
+
+        marker_f16ad18b53c5c0b8447b2dc6d3ee0772.bindPopup(popup_54f0c9526c8c68345c53968132e8620a)
+        ;
+
+        
+    
+    
+            var marker_50985a371e02f91aeb56ce03453e971d = L.marker(
+                [61.29651701171917, 22.14957375079393],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_abd747e4abb2aca0d8afe07f73ea1873 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57128128ca44dc5ed4251aa17e4cb008 = $(`<div id="html_57128128ca44dc5ed4251aa17e4cb008" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/21381' target='_blank'>Hiittenharju DiscGolfPark</a> - Rank: T65</div>`)[0];
+                popup_abd747e4abb2aca0d8afe07f73ea1873.setContent(html_57128128ca44dc5ed4251aa17e4cb008);
+            
+        
+
+        marker_50985a371e02f91aeb56ce03453e971d.bindPopup(popup_abd747e4abb2aca0d8afe07f73ea1873)
+        ;
+
+        
+    
+    
+            var marker_f6e7db6be7da36fc21fad7aefbb0279b = L.marker(
+                [52.30788, -1.545786],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_bc031ba289809e447fbdab480bd053b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bbe71e9be0dfc952244d646c849a5d5 = $(`<div id="html_8bbe71e9be0dfc952244d646c849a5d5" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3932' target='_blank'>Quarry Park</a> - Rank: T65</div>`)[0];
+                popup_bc031ba289809e447fbdab480bd053b2.setContent(html_8bbe71e9be0dfc952244d646c849a5d5);
+            
+        
+
+        marker_f6e7db6be7da36fc21fad7aefbb0279b.bindPopup(popup_bc031ba289809e447fbdab480bd053b2)
+        ;
+
+        
+    
+    
+            var marker_c73555f63ee5727a5a400390274ea4e4 = L.marker(
+                [53.09824068731621, 8.750659328881058],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_85d446c77b40297344535a9b8ede0615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eab788a3f4a2f0d55ea5177c4ad4b0e = $(`<div id="html_3eab788a3f4a2f0d55ea5177c4ad4b0e" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4402' target='_blank'>Bremen Weserufer-Discgolf-Park</a> - Rank: 67</div>`)[0];
+                popup_85d446c77b40297344535a9b8ede0615.setContent(html_3eab788a3f4a2f0d55ea5177c4ad4b0e);
+            
+        
+
+        marker_c73555f63ee5727a5a400390274ea4e4.bindPopup(popup_85d446c77b40297344535a9b8ede0615)
+        ;
+
+        
+    
+    
+            var marker_35ea34f4c4f92d019c0758219a2e1549 = L.marker(
+                [59.12798760993761, 11.346380151808262],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_4bee16a6bbf38de8b703c8408c907eef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40ab5334f21abd8750c87821f069f9ea = $(`<div id="html_40ab5334f21abd8750c87821f069f9ea" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/20439' target='_blank'>Østgaardskogen Frisbeegolfbane</a> - Rank: 68</div>`)[0];
+                popup_4bee16a6bbf38de8b703c8408c907eef.setContent(html_40ab5334f21abd8750c87821f069f9ea);
+            
+        
+
+        marker_35ea34f4c4f92d019c0758219a2e1549.bindPopup(popup_4bee16a6bbf38de8b703c8408c907eef)
+        ;
+
+        
+    
+    
+            var marker_8619ba55c867f2a3eff8a50d83604461 = L.marker(
+                [60.428719, 22.346777],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_4e5dc5cc42df03db8e5649059bf58a7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89e05fffafc72cd8e0dce6e4d73a9245 = $(`<div id="html_89e05fffafc72cd8e0dce6e4d73a9245" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3678' target='_blank'>Lausteen Frisbeegolfpuisto</a> - Rank: 69</div>`)[0];
+                popup_4e5dc5cc42df03db8e5649059bf58a7f.setContent(html_89e05fffafc72cd8e0dce6e4d73a9245);
+            
+        
+
+        marker_8619ba55c867f2a3eff8a50d83604461.bindPopup(popup_4e5dc5cc42df03db8e5649059bf58a7f)
+        ;
+
+        
+    
+    
+            var marker_789a3cce206094d41f626abd8c1c11d7 = L.marker(
+                [49.408453157368314, 18.100122614359492],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_5a44e876454148f0cd1015dd9c964ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b4003cdaaecb9f4798de6161b8e4d00 = $(`<div id="html_1b4003cdaaecb9f4798de6161b8e4d00" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/22840' target='_blank'>Búřov Discgolf</a> - Rank: T70</div>`)[0];
+                popup_5a44e876454148f0cd1015dd9c964ec8.setContent(html_1b4003cdaaecb9f4798de6161b8e4d00);
+            
+        
+
+        marker_789a3cce206094d41f626abd8c1c11d7.bindPopup(popup_5a44e876454148f0cd1015dd9c964ec8)
+        ;
+
+        
+    
+    
+            var marker_b61d6ede46f8ee053693a256acb548d9 = L.marker(
+                [49.408453157368314, 18.100122614359492],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_da047dae66c7f912c642d6c86716a0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_838119a4e53ee9a7500523133cbe962e = $(`<div id="html_838119a4e53ee9a7500523133cbe962e" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/22840' target='_blank'>Green Disc Golf</a> - Rank: T70</div>`)[0];
+                popup_da047dae66c7f912c642d6c86716a0f9.setContent(html_838119a4e53ee9a7500523133cbe962e);
+            
+        
+
+        marker_b61d6ede46f8ee053693a256acb548d9.bindPopup(popup_da047dae66c7f912c642d6c86716a0f9)
+        ;
+
+        
+    
+    
+            var marker_86a0a7d741ed553f5ad5d241b885f3ae = L.marker(
+                [59.06164733769981, 6.684620290904149],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_7ddffc2b7f17822c1c117a30d8675623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2936364ce09c6442e3a760c99a703ae = $(`<div id="html_d2936364ce09c6442e3a760c99a703ae" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/33373' target='_blank'>Lysebotn Disc Golf Course</a> - Rank: T70</div>`)[0];
+                popup_7ddffc2b7f17822c1c117a30d8675623.setContent(html_d2936364ce09c6442e3a760c99a703ae);
+            
+        
+
+        marker_86a0a7d741ed553f5ad5d241b885f3ae.bindPopup(popup_7ddffc2b7f17822c1c117a30d8675623)
+        ;
+
+        
+    
+    
+            var marker_72526accc8fcc4f16cf087ff3269c41a = L.marker(
+                [60.21329, 24.846573],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_377face8cf6a217081b4092c5134126c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d65f574f818e2811b5d4b4317559767 = $(`<div id="html_3d65f574f818e2811b5d4b4317559767" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3381' target='_blank'>Talin Frisbeegolfpuisto</a> - Rank: T73</div>`)[0];
+                popup_377face8cf6a217081b4092c5134126c.setContent(html_3d65f574f818e2811b5d4b4317559767);
+            
+        
+
+        marker_72526accc8fcc4f16cf087ff3269c41a.bindPopup(popup_377face8cf6a217081b4092c5134126c)
+        ;
+
+        
+    
+    
+            var marker_37c7ec2a0402fa4a5091aa17b5a70ca2 = L.marker(
+                [52.369301, 4.816701],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_be65a73e6ba98d9268083dd355387d25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9573047b33d91cd3adfc3a0a8bf89b1 = $(`<div id="html_e9573047b33d91cd3adfc3a0a8bf89b1" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4767' target='_blank'>Disc Golf Sloterpark</a> - Rank: T73</div>`)[0];
+                popup_be65a73e6ba98d9268083dd355387d25.setContent(html_e9573047b33d91cd3adfc3a0a8bf89b1);
+            
+        
+
+        marker_37c7ec2a0402fa4a5091aa17b5a70ca2.bindPopup(popup_be65a73e6ba98d9268083dd355387d25)
+        ;
+
+        
+    
+    
+            var marker_2033016f73f111d21c501c0f9394d871 = L.marker(
+                [58.058038098578095, 7.021117950136841],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_b673fe448ecdb11acc513d91f1dfa0c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_725fbacf1fe08498314bd8acd6841f9b = $(`<div id="html_725fbacf1fe08498314bd8acd6841f9b" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/36242' target='_blank'>Åmlandsdalen Frisbeegolfbane</a> - Rank: 75</div>`)[0];
+                popup_b673fe448ecdb11acc513d91f1dfa0c1.setContent(html_725fbacf1fe08498314bd8acd6841f9b);
+            
+        
+
+        marker_2033016f73f111d21c501c0f9394d871.bindPopup(popup_b673fe448ecdb11acc513d91f1dfa0c1)
+        ;
+
+        
+    
+    
+            var marker_f4614d452f188a045e969fd8f29b0cb3 = L.marker(
+                [59.067849219034024, 10.03819104284048],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_4dd64f8105e01bd6f930be93d76a3e14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_203b1e307fab0916f54c3cc11931317b = $(`<div id="html_203b1e307fab0916f54c3cc11931317b" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/11222' target='_blank'>Fagerli Skjenepark</a> - Rank: T76</div>`)[0];
+                popup_4dd64f8105e01bd6f930be93d76a3e14.setContent(html_203b1e307fab0916f54c3cc11931317b);
+            
+        
+
+        marker_f4614d452f188a045e969fd8f29b0cb3.bindPopup(popup_4dd64f8105e01bd6f930be93d76a3e14)
+        ;
+
+        
+    
+    
+            var marker_8b6f0fbbc9d78f1505e8ea899930a015 = L.marker(
+                [57.415057, 12.012677],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_ad277bd7596ee0423c92f3c419f2257f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e58b7e4ac9be1e90fece9df540d8b549 = $(`<div id="html_e58b7e4ac9be1e90fece9df540d8b549" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3668' target='_blank'>Kaparebanan</a> - Rank: T76</div>`)[0];
+                popup_ad277bd7596ee0423c92f3c419f2257f.setContent(html_e58b7e4ac9be1e90fece9df540d8b549);
+            
+        
+
+        marker_8b6f0fbbc9d78f1505e8ea899930a015.bindPopup(popup_ad277bd7596ee0423c92f3c419f2257f)
+        ;
+
+        
+    
+    
+            var marker_9666ad59d1678b648bd98504be7d6ba9 = L.marker(
+                [57.19894951783044, 14.016065767706948],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_4f90093152113a2f11f77650e998a9b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a08b5de85c6858f98961fa96cd96fd83 = $(`<div id="html_a08b5de85c6858f98961fa96cd96fd83" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/34751' target='_blank'>Borgen DiscGolf Arena - Vit & Röd</a> - Rank: T76</div>`)[0];
+                popup_4f90093152113a2f11f77650e998a9b5.setContent(html_a08b5de85c6858f98961fa96cd96fd83);
+            
+        
+
+        marker_9666ad59d1678b648bd98504be7d6ba9.bindPopup(popup_4f90093152113a2f11f77650e998a9b5)
+        ;
+
+        
+    
+    
+            var marker_78ecb9bbd86cd412cf6a1918363fe0b7 = L.marker(
+                [59.317951, 25.652872],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_375d13e8edbb47b3960d00ad11fecaa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11bd4f5920b97842ad3b102665a40631 = $(`<div id="html_11bd4f5920b97842ad3b102665a40631" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5572' target='_blank'>Kõrvemaa Discgolfi park</a> - Rank: T79</div>`)[0];
+                popup_375d13e8edbb47b3960d00ad11fecaa5.setContent(html_11bd4f5920b97842ad3b102665a40631);
+            
+        
+
+        marker_78ecb9bbd86cd412cf6a1918363fe0b7.bindPopup(popup_375d13e8edbb47b3960d00ad11fecaa5)
+        ;
+
+        
+    
+    
+            var marker_dff1b08fbb3781a968c6739f74bc04f7 = L.marker(
+                [57.89061637529271, 12.116583929602252],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_5e952308579a47b01f376a7ae34cafc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ee091ab1934f2a5c648ed98e59cbf4f = $(`<div id="html_9ee091ab1934f2a5c648ed98e59cbf4f" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/25102' target='_blank'>Ale Disc Golf Center: Blue Course</a> - Rank: T79</div>`)[0];
+                popup_5e952308579a47b01f376a7ae34cafc4.setContent(html_9ee091ab1934f2a5c648ed98e59cbf4f);
+            
+        
+
+        marker_dff1b08fbb3781a968c6739f74bc04f7.bindPopup(popup_5e952308579a47b01f376a7ae34cafc4)
+        ;
+
+        
+    
+    
+            var marker_a63f2d0b0c944561d7c81516d0f39794 = L.marker(
+                [59.86514682137803, 11.079901021951969],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_b8e2bee7fdbb01b9b8f73a939f53ad9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8db37d8584fc73caea59aa108aba9253 = $(`<div id="html_8db37d8584fc73caea59aa108aba9253" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/25122' target='_blank'>Myrdammen DiscGolfPark</a> - Rank: T81</div>`)[0];
+                popup_b8e2bee7fdbb01b9b8f73a939f53ad9a.setContent(html_8db37d8584fc73caea59aa108aba9253);
+            
+        
+
+        marker_a63f2d0b0c944561d7c81516d0f39794.bindPopup(popup_b8e2bee7fdbb01b9b8f73a939f53ad9a)
+        ;
+
+        
+    
+    
+            var marker_e0c4701cd8d54d266c1cf5da6c582a83 = L.marker(
+                [55.598279889871804, 13.063474827711161],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_1b795404877273349e33acf9ea96a967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_718932595c571f8089df53d6782aa3f8 = $(`<div id="html_718932595c571f8089df53d6782aa3f8" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3556' target='_blank'>Bulltofta</a> - Rank: T81</div>`)[0];
+                popup_1b795404877273349e33acf9ea96a967.setContent(html_718932595c571f8089df53d6782aa3f8);
+            
+        
+
+        marker_e0c4701cd8d54d266c1cf5da6c582a83.bindPopup(popup_1b795404877273349e33acf9ea96a967)
+        ;
+
+        
+    
+    
+            var marker_28d6c4468e056850f99e6af3c93e5681 = L.marker(
+                [55.724259202829, 13.200789391994475],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_a845921fbe08d2bff32e3820b1f79430 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5885a498d83a9b26c882e63cbc82d1ce = $(`<div id="html_5885a498d83a9b26c882e63cbc82d1ce" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/4678' target='_blank'>St Hans DGB</a> - Rank: 83</div>`)[0];
+                popup_a845921fbe08d2bff32e3820b1f79430.setContent(html_5885a498d83a9b26c882e63cbc82d1ce);
+            
+        
+
+        marker_28d6c4468e056850f99e6af3c93e5681.bindPopup(popup_a845921fbe08d2bff32e3820b1f79430)
+        ;
+
+        
+    
+    
+            var marker_6fbb630646d50c85b22d4d32a1d562bd = L.marker(
+                [56.71846043287604, 15.94584790173326],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_66b7431f4a3ef100beb2c67ad23c077e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8823db763c4f7235bf10cf403fab399e = $(`<div id="html_8823db763c4f7235bf10cf403fab399e" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/29303' target='_blank'>Svartbäcksmåla</a> - Rank: T84</div>`)[0];
+                popup_66b7431f4a3ef100beb2c67ad23c077e.setContent(html_8823db763c4f7235bf10cf403fab399e);
+            
+        
+
+        marker_6fbb630646d50c85b22d4d32a1d562bd.bindPopup(popup_66b7431f4a3ef100beb2c67ad23c077e)
+        ;
+
+        
+    
+    
+            var marker_d6b46c565d8ba212ea8b1bb8f5ec0b21 = L.marker(
+                [57.4632418436175, -4.247116525346707],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_9a7fa87ea28e310087c62251dfaca733 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa8e67f2a7b0e4a13abd63a758733b99 = $(`<div id="html_fa8e67f2a7b0e4a13abd63a758733b99" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/32860' target='_blank'>Torvean</a> - Rank: T84</div>`)[0];
+                popup_9a7fa87ea28e310087c62251dfaca733.setContent(html_fa8e67f2a7b0e4a13abd63a758733b99);
+            
+        
+
+        marker_d6b46c565d8ba212ea8b1bb8f5ec0b21.bindPopup(popup_9a7fa87ea28e310087c62251dfaca733)
+        ;
+
+        
+    
+    
+            var marker_8767030d3195071b8876faee38773948 = L.marker(
+                [61.068901, 4.843663],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_3900597965c95ebce32f6a8782956f26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ed1b9978a57f64048a9e29dbb7620ff = $(`<div id="html_2ed1b9978a57f64048a9e29dbb7620ff" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/6307' target='_blank'>Disc Golf Palau</a> - Rank: T86</div>`)[0];
+                popup_3900597965c95ebce32f6a8782956f26.setContent(html_2ed1b9978a57f64048a9e29dbb7620ff);
+            
+        
+
+        marker_8767030d3195071b8876faee38773948.bindPopup(popup_3900597965c95ebce32f6a8782956f26)
+        ;
+
+        
+    
+    
+            var marker_2e405416e24ae0cc85bc08e083de87ae = L.marker(
+                [60.38743408503893, 24.33418296894223],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_bf604710e120baf533ccff82077cbcc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11ecce9025cd8cdadf0969cf67b8c7ce = $(`<div id="html_11ecce9025cd8cdadf0969cf67b8c7ce" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5216' target='_blank'>Frisbeegolfkenttä Kaatis</a> - Rank: T86</div>`)[0];
+                popup_bf604710e120baf533ccff82077cbcc0.setContent(html_11ecce9025cd8cdadf0969cf67b8c7ce);
+            
+        
+
+        marker_2e405416e24ae0cc85bc08e083de87ae.bindPopup(popup_bf604710e120baf533ccff82077cbcc0)
+        ;
+
+        
+    
+    
+            var marker_ffa2905e4e8c6aa19f8920455989aa9a = L.marker(
+                [60.38743408503893, 24.33418296894223],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_02769f520f5235131b91bc76a048c98d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65a30c3514547d181612a509ba9d39f2 = $(`<div id="html_65a30c3514547d181612a509ba9d39f2" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/5216' target='_blank'>Varingskollen Frisbeegolfpark</a> - Rank: T86</div>`)[0];
+                popup_02769f520f5235131b91bc76a048c98d.setContent(html_65a30c3514547d181612a509ba9d39f2);
+            
+        
+
+        marker_ffa2905e4e8c6aa19f8920455989aa9a.bindPopup(popup_02769f520f5235131b91bc76a048c98d)
+        ;
+
+        
+    
+    
+            var marker_29b1ede4bb7c1da397ae246580f6b307 = L.marker(
+                [59.30304451355516, 11.15109421568656],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_3e71b881c3b381929dca0269bbf17899 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f34b091820dd10241d75d3c9c5a5469 = $(`<div id="html_1f34b091820dd10241d75d3c9c5a5469" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/31160' target='_blank'>Øya Diskgolfpark</a> - Rank: T89</div>`)[0];
+                popup_3e71b881c3b381929dca0269bbf17899.setContent(html_1f34b091820dd10241d75d3c9c5a5469);
+            
+        
+
+        marker_29b1ede4bb7c1da397ae246580f6b307.bindPopup(popup_3e71b881c3b381929dca0269bbf17899)
+        ;
+
+        
+    
+    
+            var marker_93eeb47b96e18eeff640a9d496ce1ebb = L.marker(
+                [60.9693475042599, 9.297778639541008],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_86c94036a1d04bbbdc2bb8dfc7dd6b7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_421ec99a0aa01e4cf08dea3ae41641ca = $(`<div id="html_421ec99a0aa01e4cf08dea3ae41641ca" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/21541' target='_blank'>Valdres Diskgolfpark</a> - Rank: T89</div>`)[0];
+                popup_86c94036a1d04bbbdc2bb8dfc7dd6b7a.setContent(html_421ec99a0aa01e4cf08dea3ae41641ca);
+            
+        
+
+        marker_93eeb47b96e18eeff640a9d496ce1ebb.bindPopup(popup_86c94036a1d04bbbdc2bb8dfc7dd6b7a)
+        ;
+
+        
+    
+    
+            var marker_5dfc795bdb4eced09378604be49ec01d = L.marker(
+                [55.98931851001103, 14.1467793493606],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_1e560be6133f70071e6c467b8d89cbc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7261f98a76cd014e2cb18eb2e44a36f = $(`<div id="html_e7261f98a76cd014e2cb18eb2e44a36f" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/37573' target='_blank'>Wendes Diskgolfpark</a> - Rank: T89</div>`)[0];
+                popup_1e560be6133f70071e6c467b8d89cbc1.setContent(html_e7261f98a76cd014e2cb18eb2e44a36f);
+            
+        
+
+        marker_5dfc795bdb4eced09378604be49ec01d.bindPopup(popup_1e560be6133f70071e6c467b8d89cbc1)
+        ;
+
+        
+    
+    
+            var marker_cfaf6bf4aa61f64af3ae515ffef6f879 = L.marker(
+                [51.95265864514593, 5.905986822406078],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_07f54e5fa8617f6b0e027d5b06a59a73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_146ff91fb35f8073c03d6ac41f1d3168 = $(`<div id="html_146ff91fb35f8073c03d6ac41f1d3168" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/21800' target='_blank'>Immerloo Park</a> - Rank: T92</div>`)[0];
+                popup_07f54e5fa8617f6b0e027d5b06a59a73.setContent(html_146ff91fb35f8073c03d6ac41f1d3168);
+            
+        
+
+        marker_cfaf6bf4aa61f64af3ae515ffef6f879.bindPopup(popup_07f54e5fa8617f6b0e027d5b06a59a73)
+        ;
+
+        
+    
+    
+            var marker_5c344d19e2574600a9c46bb7e77f231e = L.marker(
+                [60.22000378403004, 11.018364736944676],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_49649fb90f9942976f25b9b06215a830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_130506f9e379642b9b232f37a9c1a59e = $(`<div id="html_130506f9e379642b9b232f37a9c1a59e" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/23158' target='_blank'>Nannestad Diskgolfpark</a> - Rank: T92</div>`)[0];
+                popup_49649fb90f9942976f25b9b06215a830.setContent(html_130506f9e379642b9b232f37a9c1a59e);
+            
+        
+
+        marker_5c344d19e2574600a9c46bb7e77f231e.bindPopup(popup_49649fb90f9942976f25b9b06215a830)
+        ;
+
+        
+    
+    
+            var marker_eea29cba9ddbe96827f072b97285fd49 = L.marker(
+                [60.94017046598585, 10.713961401936475],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_7e21b13f1847be0fea54b623e86267d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e5fed611163475ae579c84802753ff9 = $(`<div id="html_4e5fed611163475ae579c84802753ff9" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/32000' target='_blank'>Moelv Frisbeegolfbane</a> - Rank: T94</div>`)[0];
+                popup_7e21b13f1847be0fea54b623e86267d6.setContent(html_4e5fed611163475ae579c84802753ff9);
+            
+        
+
+        marker_eea29cba9ddbe96827f072b97285fd49.bindPopup(popup_7e21b13f1847be0fea54b623e86267d6)
+        ;
+
+        
+    
+    
+            var marker_c9cd8c21d056b3497a026b19f8272f93 = L.marker(
+                [57.25325235787531, 12.984114080177022],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_1798b1cfc305218946d33b63e32ba212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2103f1c807b9a05580d5c5a16a3c4823 = $(`<div id="html_2103f1c807b9a05580d5c5a16a3c4823" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/33205' target='_blank'>Mårdaklev DiscGolfPark</a> - Rank: T94</div>`)[0];
+                popup_1798b1cfc305218946d33b63e32ba212.setContent(html_2103f1c807b9a05580d5c5a16a3c4823);
+            
+        
+
+        marker_c9cd8c21d056b3497a026b19f8272f93.bindPopup(popup_1798b1cfc305218946d33b63e32ba212)
+        ;
+
+        
+    
+    
+            var marker_3ae159dd63dee22c74382698f004921e = L.marker(
+                [59.84186126591965, 10.67439069117404],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_37cc6eb260e8fb9f6288447beb59b41f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeea350ead12e82458d7cab07e483730 = $(`<div id="html_aeea350ead12e82458d7cab07e483730" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/6314' target='_blank'>Nesodden Diskgolfpark</a> - Rank: T94</div>`)[0];
+                popup_37cc6eb260e8fb9f6288447beb59b41f.setContent(html_aeea350ead12e82458d7cab07e483730);
+            
+        
+
+        marker_3ae159dd63dee22c74382698f004921e.bindPopup(popup_37cc6eb260e8fb9f6288447beb59b41f)
+        ;
+
+        
+    
+    
+            var marker_aa55f9953f16d1b3d666c7c932199f51 = L.marker(
+                [55.89032170231192, -4.222038022778075],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_428b1ffe4c52e6d3fb9c8dab2d9e0f01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdeaf2ce792385020e279cf2290504f3 = $(`<div id="html_bdeaf2ce792385020e279cf2290504f3" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/23368' target='_blank'>Springburn Disc Golf Course</a> - Rank: T94</div>`)[0];
+                popup_428b1ffe4c52e6d3fb9c8dab2d9e0f01.setContent(html_bdeaf2ce792385020e279cf2290504f3);
+            
+        
+
+        marker_aa55f9953f16d1b3d666c7c932199f51.bindPopup(popup_428b1ffe4c52e6d3fb9c8dab2d9e0f01)
+        ;
+
+        
+    
+    
+            var marker_12ba97d353c8febbce756d2302c03e79 = L.marker(
+                [60.117967879125416, 19.965935423970222],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_d3f5e6b2c5cf15d81fc627f4e09f9b3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aed8d3b0a377f9138caa2cad2d445a61 = $(`<div id="html_aed8d3b0a377f9138caa2cad2d445a61" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/30269' target='_blank'>Vesterkalmare Disc Golf Center</a> - Rank: T94</div>`)[0];
+                popup_d3f5e6b2c5cf15d81fc627f4e09f9b3b.setContent(html_aed8d3b0a377f9138caa2cad2d445a61);
+            
+        
+
+        marker_12ba97d353c8febbce756d2302c03e79.bindPopup(popup_d3f5e6b2c5cf15d81fc627f4e09f9b3b)
+        ;
+
+        
+    
+    
+            var marker_151cb7de3703ba2cc137ae6be223e272 = L.marker(
+                [59.967007, 10.915872],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_2135e9fbbc82a2952d97b61a84c0f3a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28b29f0fc0c465f625e94dcb31b8717c = $(`<div id="html_28b29f0fc0c465f625e94dcb31b8717c" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/3684' target='_blank'>Stovner Discgolfpark</a> - Rank: T99</div>`)[0];
+                popup_2135e9fbbc82a2952d97b61a84c0f3a6.setContent(html_28b29f0fc0c465f625e94dcb31b8717c);
+            
+        
+
+        marker_151cb7de3703ba2cc137ae6be223e272.bindPopup(popup_2135e9fbbc82a2952d97b61a84c0f3a6)
+        ;
+
+        
+    
+    
+            var marker_abf680c5bc8a4e40a0a2156c8dc34f65 = L.marker(
+                [58.25570177657124, 12.251416283640538],
+                {}
+            ).addTo(map_f5439538b805ce17794840bc259391bc);
+        
+    
+        var popup_eea6a9d25957e7fb003edf0ba99b04bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9017f1710b1adc3e5ae10ba3639e920f = $(`<div id="html_9017f1710b1adc3e5ae10ba3639e920f" style="width: 100.0%; height: 100.0%;"><a href='https://app.udisc.com/applink/course/38829' target='_blank'>Trollhättan DiscGolfPark</a> - Rank: T99</div>`)[0];
+                popup_eea6a9d25957e7fb003edf0ba99b04bd.setContent(html_9017f1710b1adc3e5ae10ba3639e920f);
+            
+        
+
+        marker_abf680c5bc8a4e40a0a2156c8dc34f65.bindPopup(popup_eea6a9d25957e7fb003edf0ba99b04bd)
+        ;
+
+        
+    
+</script>
+</html>
